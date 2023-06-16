@@ -1,4 +1,4 @@
-package service;
+package ru.skypro.lessons.springboot.webemployee.service;
 
 import ru.skypro.lessons.springboot.webemployee.pojo.Employee;
 

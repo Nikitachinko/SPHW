@@ -2,7 +2,6 @@ package ru.skypro.lessons.springboot.webemployee.controller;
 import org.springframework.web.bind.annotation.*;
 import ru.skypro.lessons.springboot.webemployee.pojo.Employee;
 import ru.skypro.lessons.springboot.webemployee.service.EmployeeService;
-import service.EmployeeService;
 
 import java.util.List;
 @RestController
