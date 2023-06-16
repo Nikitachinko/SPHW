@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Optional;
 
 public interface EmployeeRepository {
-    public List<Employee> getAllEmployees();
+     List<Employee> getAllEmployees();
     Employee addEmployee(Employee employee);
-    public void update(int id, Employee employee);
-    public Optional<Employee> findById(int id);
-    public void delete(int id);
+     void update(int id, Employee employee);
+     Optional<Employee> findById(int id);
+     void delete(int id);
 }
